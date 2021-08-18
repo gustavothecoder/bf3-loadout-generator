@@ -87,6 +87,7 @@ PRIMARY_WEAPONS = [
 ].freeze
 
 OPTICS = [
+  'None',
   'ACOG (4x)',
   'Ballistic (12x)',
   'Holographic (HOLO)',
@@ -104,6 +105,7 @@ OPTICS = [
 ].freeze
 
 ATTACHMENTS = [
+  'None',
   'Bipod',
   'Extended Mag',
   'Foregrip',
