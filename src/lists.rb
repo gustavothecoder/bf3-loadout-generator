@@ -99,25 +99,21 @@ OPTICS = [
   'PSO-1 (4x)',
   'Reflex (RDS)',
   'Rifle Scope (6x)',
-  'Rifle Scope (8x)'
+  'Rifle Scope (8x)',
+  'Ballistic (20x)'
 ].freeze
 
-PRIMARY_ATTACHMENTS = [
+ATTACHMENTS = [
   'Bipod',
   'Extended Mag',
   'Foregrip',
   'Laser Sight',
   'Straight Pull Bolt',
   'Tactical Light',
-  'Underslung Rail'
-].freeze
-
-SECONDARY_ATTACHMENTS = [
+  'Underslung Rail',
   'Flash Suppressor',
   'Heavy Barrel',
-  'Laser Sight',
-  'Suppressor',
-  'Tactical Light'
+  'Suppressor'
 ].freeze
 
 LISTS = [
@@ -126,8 +122,7 @@ LISTS = [
   SECONDARY_WEAPONS,
   PRIMARY_WEAPONS,
   OPTICS,
-  PRIMARY_ATTACHMENTS,
-  SECONDARY_ATTACHMENTS
+  ATTACHMENTS
 ].freeze
 
 OPTIONS = [
@@ -137,5 +132,5 @@ OPTIONS = [
   { text: 'Primary weapon(s)', value: 3 },
   { text: 'Optic(s)', value: 4 },
   { text: 'Primary attachment(s)', value: 5 },
-  { text: 'Secondary attachment(s)', value: 6 }
+  { text: 'Secondary attachment(s)', value: 5 }
 ].freeze
